@@ -37,6 +37,7 @@ Copy
 Edit
 git clone https://github.com/YOUR_USERNAME/document-answerer.git
 cd document-answerer
+
 2️⃣ Create a virtual environment (recommended)
 bash
 Copy
@@ -44,11 +45,13 @@ Edit
 python -m venv rag_env
 rag_env\Scripts\activate   # Windows
 source rag_env/bin/activate # Mac/Linux
+
 3️⃣ Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
+
 4️⃣ Add your Gemini API key
 Create a .env file in the project root:
 
@@ -90,18 +93,6 @@ Type your question in the text box.
 
 View the AI-generated answer instantly.
 
-📂 Project Structure
-bash
-Copy
-Edit
-document-answerer/
-│
-├── documents/                # Folder for storing uploaded documents
-├── doc_answer_terminal.py    # Terminal-based version
-├── doc_answer_streamlit.py   # Streamlit web app
-├── requirements.txt          # Python dependencies
-├── .env                      # API key storage (not uploaded to GitHub)
-└── README.md                 # Project documentation
 
 ⚠️ Notes
 Never upload .env to GitHub (contains your API key).
