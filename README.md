@@ -1,4 +1,5 @@
 📖 About the Project
+
 Document Answerer is an AI-powered document question answering system based on Retrieval-Augmented Generation (RAG).
 It enables users to upload documents in .pdf, .docx, or .txt formats, index them using FAISS vector search, and retrieve relevant context for accurate natural language answers powered by Google Gemini AI.
 
