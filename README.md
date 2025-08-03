@@ -11,7 +11,8 @@ Automatic re-indexing for newly added files
 Multi-format document support and fast semantic search
 This makes it ideal for research, report analysis, study material summarization, and knowledge management.
 
-🚀 Features
+🚀 Features:
+
 📂 Supports multiple formats: PDF, DOCX, TXT
 
 ⚡ Fast document search using FAISS vector database
@@ -30,7 +31,8 @@ Streamlit web app for an interactive UI
 
 🔒 Secure API key storage with .env file
 
-📦 Installation
+📦 Installation:
+
 1️⃣ Clone the repository
 bash
 Copy
